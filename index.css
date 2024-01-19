@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  font-size: 14px;
+}
+
+main .content {
+  padding: 40px;
+  text-align: center;
+}
+
+main {
+  background-color: #1f1f1f;
+  height: 611px;
+  width: 384px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+main .main-img {
+  padding-bottom: 24px;
+}
+
+main .name p:first-child {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 8px 0 0 0;
+}
+
+main .name p:last-child {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+
+img {
+  height: 88px;
+  width: 88px;
+  border-radius: 50%;
+}
+
+main .main-text {
+  color: #fff;
+  margin-top: 24px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+main .main-social {
+  width: 100%;
+  padding: 12px 0 12px 0;
+}
+
+main .main-social a {
+  color: white;
+}
+
+main .main-social a:link {
+  font-weight: 600;
+  display: block;
+  padding: 12px 0 12px 0;
+  border-radius: 5px;
+  background-color: #333333;
+  width: 100%;
+  text-decoration: none;
+  transition: all 0.1s;
+}
+
+main .main-social a:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+main .main-social a:active,
+main .main-social a:hover {
+  color: #333;
+  background-color: #c4f82a;
+}
